@@ -80,8 +80,8 @@
     icp = ""
     # license info (HTML format is supported)
     # 许可协议信息 (支持 HTML 格式)
-    license= '<a rel="license external nofollow noopener noreffer" href="/impressum/impressum" target="_blank">Impressum</a>'
-
+    license= '<a rel="license external nofollow noopener noreffer" href="/Meine_Website/impressum/impressum/" target="_blank">Impressum</a>'
+# https://wimon89.github.io/Meine_Website/posts/second_post/second_post/
 
   # Section (all posts) page config
   # Section (所有文章) 页面配置
