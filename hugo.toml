@@ -1,0 +1,70 @@
+#baseURL = 'https://example.org/'
+#languageCode = 'en-us'
+#title = 'My New Hugo Site'
+
+baseURL = ""
+
+# Change the default theme to be use when building the site with Hugo
+theme = "LoveIt"
+
+# website title
+title = "SimsBlog"
+
+# language code ["en", "zh-CN", "fr", "pl", ...]
+languageCode = "de"
+# language name ["English", "简体中文", "Français", "Polski", ...]
+languageName = "Deutsch"
+
+# Author config
+[author]
+  name = ""
+  email = ""
+  link = ""
+
+# Menu config
+[menu]
+  [[menu.main]]
+    weight = 1
+    identifier = "posts"
+    # you can add extra information before the name (HTML format is supported), such as icons
+    pre = ""
+    # you can add extra information after the name (HTML format is supported), such as icons
+    post = ""
+    name = "Posts"
+    url = "/posts/"
+    # title will be shown when you hover on this menu link
+    title = ""
+  [[menu.main]]
+    weight = 2
+    identifier = "tags"
+    pre = ""
+    post = ""
+    name = "Tags"
+    url = "/tags/"
+    title = ""
+  [[menu.main]]
+    weight = 3
+    identifier = "categories"
+    pre = ""
+    post = ""
+    name = "Categories"
+    url = "/categories/"
+    title = ""
+  #[[menu.main]]
+   # name = "Impressum"
+   # pageref = "/Impressum/Impressum"
+   # weigt = 4
+
+  #[[menu.footer]]
+   # name = "Impressum"
+   # pageref = "/Impressum/Impressum"
+   # weigt = 1
+
+
+
+# Markup related configuration in Hugo
+[markup]
+  # Syntax Highlighting (https://gohugo.io/content-management/syntax-highlighting)
+  [markup.highlight]
+    # false is a necessary configuration (https://github.com/dillonzq/LoveIt/issues/158)
+    noClasses = false
